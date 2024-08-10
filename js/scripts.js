@@ -18,5 +18,12 @@ function newItem() {
     }
     li.on("click", crossOut);
 
+    // Delete button X 
+    let crossOutButton = $("<crossOutButton></crossOutButton>");
+    crossOutButton.append(document.createTextNode("X"));
+    li.append(crossOutButton);
+    crossOutButton.on("click", deleteListItem);
+
+
 
 }
