@@ -13,7 +13,7 @@ Functionality
 
 - Removing item with X button
 
-- Reordering items by draggin 
+- Reordering items by dragging 
 
 Goals 
 
