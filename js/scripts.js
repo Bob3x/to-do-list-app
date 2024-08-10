@@ -24,6 +24,11 @@ function newItem() {
     li.append(crossOutButton);
     crossOutButton.on("click", deleteListItem);
 
+    // Delete function by adding class delete( display: none) from CSS
+    function deleteListItem() {
+        li.addClass("delete");
+    }
+
 
 
 }
